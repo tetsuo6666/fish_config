@@ -18,10 +18,10 @@ set -gx EDITOR vim
 #status --is-interactive; and source (anyenv init -|psub)
 
 # direnv
-eval (direnv hook fish)
+#eval (direnv hook fish)
 
 # gcloud
-source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc
+#source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc
 
 # brew ruby
 #set -g fish_user_paths "/usr/local/opt/ruby/bin" $fish_user_paths
