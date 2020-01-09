@@ -1,0 +1,6 @@
+completions/
+functions/
+fishd.*
+fish_*
+fishfile
+
