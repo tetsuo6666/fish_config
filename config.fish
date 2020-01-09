@@ -29,3 +29,5 @@ set -gx EDITOR vim
 
 #set -g theme_color_scheme dracula
 
+# LSCOLORS
+set -gx LSCOLORS gxfxcxdxbxegedabagacad
