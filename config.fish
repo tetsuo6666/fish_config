@@ -10,6 +10,8 @@ alias vi vim
 
 set -gx EDITOR vim
 
+set PATH /opt/homebrew/bin $PATH
+
 #set -gx LDFLAGS -L/usr/local/opt/sqlite/lib
 #set -gx CPPFLAGS -I/usr/local/opt/sqlite/include
 

@@ -1,7 +1,6 @@
-
 # direnv
 
-if test -x /usr/local/bin/direnv
+if test -x direnv
   eval (direnv hook fish)
 end
 
