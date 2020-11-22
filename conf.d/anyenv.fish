@@ -3,8 +3,6 @@
 if test -x $HOME/.anyenv/bin/anyenv
  set -gx PATH $HOME/.anyenv/bin $PATH
  status --is-interactive; and source (anyenv init -|psub)
-end
-
-if test -x /usr/local/bin/anyenv
+else if test -x /usr/local/bin/anyenv
  status --is-interactive; and source (anyenv init -|psub)
 end
