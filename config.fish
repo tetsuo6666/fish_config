@@ -8,3 +8,4 @@ set -gx LSCOLORS gxfxcxdxbxegedabagacad
 for file in ~/.config/fish/completions/*.fish
     source $file
 end
+
