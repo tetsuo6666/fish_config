@@ -9,3 +9,5 @@ for file in ~/.config/fish/completions/*.fish
     source $file
 end
 
+# starship
+set -gx STARSHIP_CONFIG ~/.config/starship/starship.toml
