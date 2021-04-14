@@ -1,6 +1,6 @@
 # direnv
 
-if test -x direnv
+if test -x (which direnv)
   eval (direnv hook fish)
 end
 
