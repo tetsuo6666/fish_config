@@ -1,6 +1,5 @@
 # direnv
-
 if test -x (which direnv)
-  eval (direnv hook fish)
+  direnv hook fish | source
 end
 
