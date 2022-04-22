@@ -1,7 +1,6 @@
 # asdf
-if test -f $HOME/.asdf/asdf.fish
-  source $HOME/.asdf/asdf.fish
-end
+
+source (brew --prefix asdf)/libexec/asdf.fish
 
 if test -f $HOME/.asdf/plugins/java/set-java-home.fish
   source $HOME/.asdf/plugins/java/set-java-home.fish
